@@ -6,7 +6,7 @@ In this paper, we extend the spectral CNN to an anisotropic case based on the an
 
 ![FAUST_cqc](https://github.com/GCVGroup/ACSCNN/blob/master/figs/FAUST_cqc.png)
 
-![FAUST_cqc](https://github.com/GCVGroup/ACSCNN/blob/master/figs/faust_transfer_errs.png)
+![FAUST_cqc](https://github.com/GCVGroup/ACSCNN/blob/master/figs/faust_transfer_errs_low_res.jpg)
 
 # How to use this code
 
