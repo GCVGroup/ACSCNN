@@ -12,6 +12,7 @@ In this paper, we extend the spectral CNN to an anisotropic case based on the an
 
 1. run matlab code 'run_data_prec_compute_anisotropic.m' to prepare ALBO matrix.
 2. start training 'python ACSCNN_faust.py'.
+
 Any questions can contack me. qinsli.cg@foxmail.com (Qinsong Li)
 
 # License 
