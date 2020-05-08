@@ -1,6 +1,6 @@
 # Shape correspondence using anisotropic Chebyshev spectral CNNs
 
-This is the source code for the paper 'Shape correspondence using anisotropic Chebyshev spectral CNNs' by Qinsong Li, Shengjun Liu, Ling Hu and Xinru Liu. accepted by CVPR 2020.
+This is the pytorch implementation for the paper 'Shape correspondence using anisotropic Chebyshev spectral CNNs' by Qinsong Li, Shengjun Liu, Ling Hu and Xinru Liu. accepted by CVPR 2020.
 
 In this paper, we extend the spectral CNN to an anisotropic case based on the anisotropic Laplace-Beltrami Operator (ALBO) which allows to aggregate local features from multiply diffusion directions and achieve state-of-art results on shape correspondence task.
 
@@ -11,7 +11,8 @@ In this paper, we extend the spectral CNN to an anisotropic case based on the an
 # How to use this code
 
 1. run matlab code 'run_data_prec_compute_anisotropic.m' to prepare ALBO matrix.
-2. start training 'python ACSCNN_faust'.
+2. start training 'python ACSCNN_faust.py'.
+Any questions can contack me. qinsli.cg@foxmail.com (Qinsong Li)
 
 # License 
 
