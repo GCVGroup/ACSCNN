@@ -4,9 +4,9 @@ This is the source code for the paper 'Shape correspondence using anisotropic Ch
 
 In this paper, we extend the spectral CNN to an anisotropic case based on the anisotropic Laplace-Beltrami Operator (ALBO) which allows to aggregate local features from multiply diffusion directions and achieve state-of-art results on shape correspondence task.
 
-![FAUST_cqc](https://github.com/GCVGroup/ACSCNN/tree/master/figs/FAUST_cqc.png)
+![FAUST_cqc](https://github.com/GCVGroup/ACSCNN/blob/master/figs/FAUST_cqc.png)
 
-![FAUST_cqc](https://github.com/GCVGroup/ACSCNN/tree/master/figs/faust_transfer_errs.png)
+![FAUST_cqc](https://github.com/GCVGroup/ACSCNN/blob/master/figs/faust_transfer_errs.png)
 
 # How to use this code
 
