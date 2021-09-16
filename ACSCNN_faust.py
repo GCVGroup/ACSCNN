@@ -12,7 +12,7 @@ import torch.optim as optim
 from torch.nn import Parameter
 
 class ACSConv(nn.Module):
-    def __init__(self,in_size,out_size,n_angles=8, K=15,bias=True):
+    def __init__(self,in_size,out_size,n_angles=8, K=16,bias=True):
         super().__init__()
         self.in_size=in_size
         self.out_size=out_size
@@ -267,7 +267,7 @@ class Logger(object):
 
 
 ## 实验参数设置
-name_exp = 'aniso_norm_laplacian_K=15_const'  # default: exp00
+name_exp = 'aniso_norm_laplacian_K16_const'  # default: exp00
 # path to the folder containing the code:
 path_code = os.getcwd()
 # path to the folder containing the data:
