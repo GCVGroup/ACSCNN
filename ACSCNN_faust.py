@@ -319,7 +319,6 @@ criterion=torch.nn.CrossEntropyLoss()
 
 import copy
 
-best_model_wts=copy.deepcopy(model.state_dict())
 best_acc=0.0
 best_epoch=0.0
 train_epoch_loss=[]
@@ -393,18 +392,9 @@ for epoch in range(num_epochs):
     
     log.logger.info('test Loss :{:.4f} Acc:{:.4f} Time:{:.2f}s'.format(epoch_loss,epoch_acc,time.time()-tic))
     
-    if epoch_acc>best_acc:
-        best_model_wts=copy.deepcopy(model.state_dict())
-        best_acc=epoch_acc
-        best_epoch=epoch
-
-
-## 训练完毕 加载最佳模型，并保存推测结果
-torch.save(best_model_wts,os.path.join(paths['pred'],'ACSCNN_best'+str(best_epoch)+'.pt'))
 
 import scipy.io as sio
 
-model.load_state_dict(best_model_wts)
 model.eval()
 
 with torch.no_grad():
